@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 app.use(routes);
 app.get('/', (req, res) => {
-  res.send('testing API')
+  res.send('testing')
 })
 
 app.listen(port, () => {
